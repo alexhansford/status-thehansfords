@@ -1,36 +1,59 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: alexhansford # Your GitHub organization or username, where this repository lives
+repo: status-upptime # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+  - name: Play TTRS
+    url: https://play.ttrockstars.com
+  - name: TTRS API
+    url: https://mcpugs.ttrockstars.com
+  - name: TTRS Nest API
+    url: https://nest.ttrockstars.com
+  - name: TTRS Rockbase
+    url: https://rockbase.ttrockstars.com
+  - name: TTRS Website
+    url: https://ttrockstars.com
+  - name: NumBots Login
+    url: https://auth.numbots.com/api
+  - name: NumBots API
+    url: https://stats.numbots.com/api
+  - name: NumBots website
+    url: https://numbots.com
+ # - name: IPv6 website
+ #   url: forwardemail.net
+ #   port: 80
+ #   check: "tcp-ping"
+ #   ipv6: true
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
+  cname: upptime-test.alexhansford.com
   # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  logoUrl: https://raw.githubusercontent.com/alexhansford/upptime-test.alexhansford.com/master/static/img/all_logo.gif
+  name: Maths Circle (test)
+  introTitle: "Quickly check the status of all Math Circle's services."
+  introMessage: Maths Circle is an internationally trusted EdTech company who create award-winning maths programmes, dedicated to helping children acquire fundamental numeracy skills.
   navbar:
-    - title: Status
+    - title: Maths Circle Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+    - title: Maths Circle
+      href: https://mathscircle.com
+  robotsText: "User-agent: * \n Disallow: /"
+  theme: dark
+
+
+workflowSchedule:
+  graphs: "0 0 * * *"
+  responseTime: "0 23 * * *"
+  staticSite: "0 1 * * *"
+  summary: "0 0 * * *"
+  updateTemplate: "0 0 * * *"
+  updates: "0 3 * * *"
+  uptime: "*/10 * * * *"  #set to once every 10 minutes to reduce build minutes.
+
+i18n:
+  footer: "[TEST Maths Circle Limited](https://mathscircle.com)"
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
