@@ -3,22 +3,10 @@ owner: alexhansford # Your GitHub organization or username, where this repositor
 repo: status-upptime # The name of this repository
 
 sites:
-  - name: Play TTRS
-    url: https://play.ttrockstars.com
-  - name: TTRS API
-    url: https://mcpugs.ttrockstars.com
-  - name: TTRS Nest API
-    url: https://nest.ttrockstars.com
-  - name: TTRS Rockbase
-    url: https://rockbase.ttrockstars.com
-  - name: TTRS Website
-    url: https://ttrockstars.com
-  - name: NumBots Login
-    url: https://auth.numbots.com/api
-  - name: NumBots API
-    url: https://stats.numbots.com/api
-  - name: NumBots website
-    url: https://numbots.com
+  - name: Unraid
+    url: https://unraid.thehansfords.co.uk
+  - name: Plex
+    url: https://plex.thehansfords.co.uk
  # - name: IPv6 website
  #   url: forwardemail.net
  #   port: 80
@@ -31,14 +19,14 @@ status-website:
   cname: upptime-test.alexhansford.com
   # baseUrl: /your-repo-name
   logoUrl: https://raw.githubusercontent.com/alexhansford/upptime-test.alexhansford.com/master/static/img/all_logo.gif
-  name: Maths Circle (test)
-  introTitle: "Quickly check the status of all Math Circle's services."
-  introMessage: Maths Circle is an internationally trusted EdTech company who create award-winning maths programmes, dedicated to helping children acquire fundamental numeracy skills.
-  navbar:
-    - title: Maths Circle Status
-      href: /
-    - title: Maths Circle
-      href: https://mathscircle.com
+  name: The Hansfords
+  introTitle: "Quickly check the status of all The Hansford's services."
+  introMessage: Check whether our home server is up or offline.
+  # navbar:
+  #  - title: Maths Circle Status
+  #    href: /
+  #  - title: Maths Circle
+  #    href: https://mathscircle.com
   robotsText: "User-agent: * \n Disallow: /"
   theme: dark
 
@@ -53,7 +41,7 @@ workflowSchedule:
   uptime: "*/10 * * * *"  #set to once every 10 minutes to reduce build minutes.
 
 i18n:
-  footer: "[TEST Maths Circle Limited](https://mathscircle.com)"
+  footer: "[The Hansfords](https://thehansfords.co.uk)"
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
