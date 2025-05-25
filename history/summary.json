@@ -16,7 +16,8 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2025-05-24": 15,
+      "2025-05-25": 18,
+      "2025-05-24": 1440,
       "2025-05-23": 443
     }
   },
@@ -31,13 +32,14 @@
     "uptimeWeek": "0.00%",
     "uptimeMonth": "0.00%",
     "uptimeYear": "0.00%",
-    "time": 478,
-    "timeDay": 478,
-    "timeWeek": 478,
-    "timeMonth": 478,
-    "timeYear": 478,
+    "time": 427,
+    "timeDay": 326,
+    "timeWeek": 427,
+    "timeMonth": 427,
+    "timeYear": 427,
     "dailyMinutesDown": {
-      "2025-05-24": 15,
+      "2025-05-25": 18,
+      "2025-05-24": 1440,
       "2025-05-23": 443
     }
   }
